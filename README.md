@@ -12,10 +12,13 @@ You can run the script in isolation with this command `npm run setup-config` at 
 
 
 - [x] Prompt the user for name of a "windows service" that user wants to check status of
+
 - [x] Print status report based on what you find about service
-        - Service: {serviceName} does not exist
-        - Service: {serviceName} is running
-        - Service: {serviceName} is stopped
+
+        -- Service: {serviceName} does not exist
+        -- Service: {serviceName} is running
+        -- Service: {serviceName} is stopped
+
 - [x] Bonus (optional): It specifies the list of service names in a configuration file and user should only be able to query those services. If service is not in the list, then print Service: {serviceName} not authorized to query
 
 
